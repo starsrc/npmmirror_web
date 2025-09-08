@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <VStack align="stretch">
       <Hero />
-      <SimpleGrid columns={{ base: 1, md: 3 }} >
-        <VStack align="stretch" gridColumn={{ md: "span 2" }}>
+      <SimpleGrid columns={{ base: 1, md: 3 }} gap={4} >
+        <VStack align="stretch" gridColumn={{ md: "span 2" }} gap={4}>
           <InfoCard />
           <CodeCard />
         </VStack>

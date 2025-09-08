@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ark-ui/react": "^5.22.0",
     "@chakra-ui/react": "^3.26.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",

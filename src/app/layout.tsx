@@ -1,10 +1,11 @@
-
 import type { Metadata } from "next";
 import React from "react";
 import  Provider  from "./provider";
 import { Container } from "@chakra-ui/react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import './globals.css'
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,13 +22,11 @@ export default function RootLayout({
       <body>
         <Provider>
           <Header/>
-          <Container>
+          <Container >
             {children}
           </Container>
           <Footer/>
         </Provider>
-
-
       </body>
     </html>
   );
